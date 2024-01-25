@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Jeel2363.github.io/ReactWebsite",
+  "homepage": "https://Jeel2363.github.io/website",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -85,6 +85,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "react-router-dom": "^6.21.3"
   },
   "jest": {
