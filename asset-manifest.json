@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactWebsite/static/css/main.78bbffab.css",
+    "main.js": "/ReactWebsite/static/js/main.327ae9f6.js",
+    "static/js/787.c922dae8.chunk.js": "/ReactWebsite/static/js/787.c922dae8.chunk.js",
+    "static/media/776cafe4-7db6-4f75-bc3a-95471159f032.jpg": "/ReactWebsite/static/media/776cafe4-7db6-4f75-bc3a-95471159f032.124a4fc590f9495884ea.jpg",
+    "static/media/social-3408791.jpg": "/ReactWebsite/static/media/social-3408791.6bbab304ee187fb01222.jpg",
+    "static/media/workspace-1280538.jpg": "/ReactWebsite/static/media/workspace-1280538.cf71c8f51738f1782027.jpg",
+    "static/media/imac-1999636.png": "/ReactWebsite/static/media/imac-1999636.262a92e557311bde04f5.png",
+    "static/media/smartphone-1184865.png": "/ReactWebsite/static/media/smartphone-1184865.9d99b38c7881548673ad.png",
+    "static/media/gear-1674891_1920.png": "/ReactWebsite/static/media/gear-1674891_1920.692fd9eb76979752adc5.png",
+    "static/media/5604110.jpg": "/ReactWebsite/static/media/5604110.aad125e33103bf8d2af7.jpg",
+    "static/media/interface-3614766_1920.png": "/ReactWebsite/static/media/interface-3614766_1920.d26844bf89895ee03680.png",
+    "index.html": "/ReactWebsite/index.html",
+    "main.78bbffab.css.map": "/ReactWebsite/static/css/main.78bbffab.css.map",
+    "main.327ae9f6.js.map": "/ReactWebsite/static/js/main.327ae9f6.js.map",
+    "787.c922dae8.chunk.js.map": "/ReactWebsite/static/js/787.c922dae8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78bbffab.css",
+    "static/js/main.327ae9f6.js"
+  ]
+}
