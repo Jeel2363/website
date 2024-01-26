@@ -14,11 +14,11 @@ code {
 
 
 .nav-item a:hover {
-  color: rgb(50, 125, 125) !important;
+  color: rgb(17, 0, 249) !important;
 }
 
 .navbar-brand:hover {
-  color: rgb(50, 125, 125) !important;
+  color: rgb(0, 34, 255)!important;
 }
 
 /* Add this CSS to your stylesheet or in the same file as your component */

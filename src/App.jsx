@@ -8,6 +8,8 @@ import Service from "./Service";
 import Contact from "./Contact";
 import NavBar from "./Navbar";
 import Footer from "./Footer";
+import Search from "./Search";
+import Signup from "./Signup";
 
 const App = () => {
   return(
@@ -19,6 +21,8 @@ const App = () => {
         <Route exact path="/about" Component={About} />
         <Route exact path="/service" Component={Service} />
         <Route exact path="/contact" Component={Contact} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>
     <Footer />
