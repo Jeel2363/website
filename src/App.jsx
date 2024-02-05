@@ -10,6 +10,7 @@ import NavBar from "./Navbar";
 import Footer from "./Footer";
 import Search from "./Search";
 import Signup from "./Signup";
+import Login from "./Login";
 
 const App = () => {
   return(
@@ -22,6 +23,7 @@ const App = () => {
         <Route exact path="/service" Component={Service} />
         <Route exact path="/contact" Component={Contact} />
         <Route path="/search" element={<Search />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>

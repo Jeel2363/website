@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import web from "../src/img/5604110.jpg";
-import "./index.css";
+import "./index.scss";
 import Common from "./Common";
 
 const Home = () => {

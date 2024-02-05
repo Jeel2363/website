@@ -1,5 +1,5 @@
 import {React, useState} from "react";
-import "./index.css";
+import "./index.scss";
 import { Link, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
@@ -17,13 +17,13 @@ const NavBar = () => {
       <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-14 mx-auto">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="container-fluid">
-                <Link class="navbar-brand" to="/">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+              <div className="container-fluid">
+                <Link className="navbar-brand" to="/">
                   Website
                 </Link>
                 <button
-                  class="navbar-toggler"
+                  className="navbar-toggler"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent"
@@ -31,23 +31,23 @@ const NavBar = () => {
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span class="navbar-toggler-icon"></span>
+                  <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                      <Link class="nav-link" aria-current="page" to="/">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li className="nav-item active">
+                      <Link className="nav-link" aria-current="page" to="/">
                         Home
                       </Link>
                     </li>
-                    <li class="nav-item active">
-                      <Link class="nav-link" to="/about">
+                    <li className="nav-item active">
+                      <Link className="nav-link" to="/about">
                         About
                       </Link>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li className="nav-item dropdown">
                       <Link
-                        class="nav-link dropdown-toggle"
+                        className="nav-link dropdown-toggle"
                         to="/extras"
                         role="button"
                         data-bs-toggle="dropdown"
@@ -55,22 +55,22 @@ const NavBar = () => {
                       >
                         Extras
                       </Link>
-                      <ul class="dropdown-menu">
+                      <ul className="dropdown-menu">
                         <li>
-                          <Link class="dropdown-item" to="/about">
+                          <Link className="dropdown-item" to="/about">
                             About
                           </Link>
                         </li>
                         <li>
-                          <Link class="dropdown-item" to="/contact">
+                          <Link className="dropdown-item" to="/contact">
                             Contact
                           </Link>
                         </li>
                         <li>
-                          <hr class="dropdown-divider" />
+                          <hr className="dropdown-divider" />
                         </li>
                         <li>
-                          <Link class="dropdown-item" to="/service">
+                          <Link className="dropdown-item" to="/service">
                             Service
                           </Link>
                         </li>
@@ -79,25 +79,25 @@ const NavBar = () => {
                   </ul>
                   <form className="d-flex" onSubmit={handleSearch}>
         <input
-          className="form-control me-2"
+          className="form-control me-2 mb-2 mb-lg-0"
           type="search"
           placeholder="Search"
           aria-label="Search"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
         />
-        <button className="btn btn-outline-success" type="submit">
+        <button className="btn btn-outline-success mb-2 mb-lg-0" type="submit">
           Search
         </button>
       </form>
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <Link class="btn btn-outline-primary mx-2" to="/login">
+                  <ul className="navbar-nav ml-auto">
+                    <li className="nav-item">
+                      <Link className="btn btn-outline-primary mx-2 mb-2 mb-lg-0" to="/login">
                         Login
                       </Link>
                     </li>
-                    <li class="nav-item">
-                      <Link class="btn btn-primary" to="/signup">
+                    <li className="nav-item">
+                      <Link className="btn btn-primary" to="/signup">
                         Signup
                       </Link>
                     </li>
